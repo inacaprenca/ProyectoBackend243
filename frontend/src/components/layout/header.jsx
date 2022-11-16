@@ -3,7 +3,13 @@ import React from 'react';
 const { Header } = Layout;
 const App = () => (
 
-      <Header>Header</Header>
+      <Header>
+        Productos
+        ||
+        Información 
+        ||
+        Etc...
+      </Header>
 
 );
 export default App;

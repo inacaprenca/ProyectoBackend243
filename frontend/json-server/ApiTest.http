@@ -6,7 +6,7 @@ POST http://localhost:4000/products HTTP/1.1
 content-type: application/json
 
 {
-        "uuid": "layout-1",
+    "uuid": "layout-1",
     "tag": "Layout",
     "text": "Configuración de layout",
     "items":[
