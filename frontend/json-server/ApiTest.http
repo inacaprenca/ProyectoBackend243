@@ -1,0 +1,21 @@
+GET http://localhost:4000/products/
+
+### Send Post
+
+POST http://localhost:4000/products HTTP/1.1
+content-type: application/json
+
+{
+        "uuid": "layout-1",
+    "tag": "Layout",
+    "text": "Configuración de layout",
+    "items":[
+        {"id":"123",
+        "name":"Producto 1"},
+        {"id":"124",
+        "name":"Producto 2"},
+        {"id":"125",
+        "name":"Producto 3"}
+    ]
+
+}
