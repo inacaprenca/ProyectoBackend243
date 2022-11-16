@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import Product from '../../features/product'
-import ReactDOM from "react-dom/client";
+import ProductList from '../../features/product/ProductList';
 
 
 const router = createBrowserRouter([
@@ -16,8 +16,12 @@ const router = createBrowserRouter([
     element: <div>Hello world!</div>,
   },
   {
-    path: "/products",
+    path: "/product",
     element: <Product />,
+  },
+  {
+    path: "/products",
+    element: <ProductList />,
   },
 ]);
 
