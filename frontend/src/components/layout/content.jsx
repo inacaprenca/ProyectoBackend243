@@ -8,6 +8,8 @@ import {
 
 import Product from '../../features/product'
 import ProductList from '../../features/product/ProductList';
+import CarouselLayout from '../carousel';
+import CardLayout from '../card';
 
 
 const router = createBrowserRouter([
@@ -28,6 +30,8 @@ const router = createBrowserRouter([
 const { Content } = Layout;
 const App = () => (
     <Content>
+      <CarouselLayout />
+      <CardLayout />
         <RouterProvider router={router} />
     </Content>
 

@@ -6,16 +6,44 @@
     "items": [
       {
         "id": "123",
-        "name": "Producto 1"
+        "name": "Producto 1",
+        "description": {
+          "value": "Texto de prueba de descripcion",
+          "price": {
+            "value": "value 1"
+          },
+          "color": {
+            "value": "value 2"
+          },
+          "dimensions": {
+            "value": "value 3"
+          },
+          "material": {
+            "value": "Tipos de Sustrato"
+          }
+
+        }
       },
       {
-        "id": "124",
-        "name": "Producto 2"
-      },
-      {
-        "id": "125",
-        "name": "Producto 3"
+        "id": "456",
+        "name": "Producto 2",
+        "description": {
+          "value": "Texto de prueba de descripcion",
+          "price": {
+            "value": "value 1"
+          },
+          "color": {
+            "value": "value 2"
+          },
+          "dimensions": {
+            "value": "value 3"
+          },
+          "material": {
+            "value": "Tipos de Sustrato"
+          }
+        }
       }
+      
     ]
   }
 }
