@@ -1,6 +1,6 @@
 
 import './App.css';
-import 'antd/dist/antd.min.css';
+import 'antd/dist/antd.js';
 import LayoutMain from './components/layout'
 
 function App() {
